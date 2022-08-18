@@ -7,18 +7,23 @@ import Footer from './components/Footer';
 
 // import pages
 import Home from './pages/Home';
+import About from './pages/About';
 import Works from './pages/Works';
 
 function App() {
   return (
     <Router>
-      <div>
+      <div className='p-8'>
         <Header />
         <div>
           <Routes>
             <Route
               path="/"
               element={<Home />}
+            />
+            <Route
+              path="/about"
+              element={<About />}
             />
             <Route
               path="/works"
