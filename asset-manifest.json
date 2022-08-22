@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ti-22/static/css/main.70cfe076.css",
+    "main.js": "/ti-22/static/js/main.ac4039b7.js",
+    "static/js/787.76913e99.chunk.js": "/ti-22/static/js/787.76913e99.chunk.js",
+    "index.html": "/ti-22/index.html",
+    "main.70cfe076.css.map": "/ti-22/static/css/main.70cfe076.css.map",
+    "main.ac4039b7.js.map": "/ti-22/static/js/main.ac4039b7.js.map",
+    "787.76913e99.chunk.js.map": "/ti-22/static/js/787.76913e99.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70cfe076.css",
+    "static/js/main.ac4039b7.js"
+  ]
+}
