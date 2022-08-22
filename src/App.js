@@ -13,7 +13,7 @@ import Works from './pages/Works';
 function App() {
   return (
     <Router>
-      <div className='container p-4 mx-auto'>
+      <div className='container p-4 mx-auto relative'>
         <Header />
         <div className='container p-4'>
           <Routes>

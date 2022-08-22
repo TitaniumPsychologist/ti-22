@@ -13,8 +13,11 @@ body {
   color: grey;
 }
 
-a:hover {
+a {
   color:white;
+}
+a:hover {
+  color:rgb(61, 166, 204);
 }
 
 footer {
