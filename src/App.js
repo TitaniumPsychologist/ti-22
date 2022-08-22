@@ -9,11 +9,12 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Works from './pages/Works';
+import Contact from './pages/Contact';
 
 function App() {
   return (
     <Router basename='ti-22'>
-      <div className='container p-4 mx-auto relative'>
+      <div className='container p-4 mx-auto relative bg-slate-100 text-cyan-500'>
         <Header />
         <div className='container p-4'>
           <Routes>
@@ -29,6 +30,10 @@ function App() {
               path="/works"
               element={<Works />}
             />
+            <Route
+              path='/contact'
+              element={<Contact />}
+              />
           </Routes>
         </div>
         <Footer />

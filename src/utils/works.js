@@ -3,7 +3,7 @@ const works = [
     name: "Duality of Light",
     link: "https://archiveofourown.org/works/37467820",
     genre: ['drama', 'angst', 'found family', 'casefic'],
-    warning: ['implied/referenced suicide', 'implied/referenced character death'],
+    warning: ['graphic depictions of violence', 'strong language','implied/referenced suicide', 'implied/referenced character death'],
     rating: "M",
     summary: `
     "I said he grazed me. I hardly feel anything." Though from the crowd that was gathering around them, Gavin was getting worried. He looked at his forearm and noticed the tear in his leather jacket, bits of his black, long-sleeved shirt peeking through from the damage. There were smudges of blue—
@@ -25,7 +25,9 @@ const works = [
   {
     name: "Gavin and Hank's After-Midnight Sanity Tour 2038",
     link: "https://archiveofourown.org/works/38637018",
-    genre: ['humor', 'crackfic'],
+    genre: ['humor', 'crackfic', 'attempt at humor', 'alternate universe'],
+    warning: ['strong language', 'dark humor'],
+    rating: "M",
     summary: `
     The DBH Convenience Store AU sitcom that no one asked for (except maybe one person), featuring Gavin Reed as your tired, underpaid, hooked-on-stale-convenience-store-coffee cashier; and Hank Anderson as your tired, underpaid, I-run-three-stores-and-I-hate-my-life night manager. Includes their nuisances/customers during a midnight mart run: Connor, the why-the-fuck-are-you-so-happy-at-this-hour insomniac grad student working on his dissertation (or is secretly a government agent, or a vampire, they haven't agreed yet); Tina and Chris, two Taco Bell employees that engage in illicit deals to trade tacos for fountain drinks; Perkins, a crotchety nicotine addict that deserves to be brought through the ringer of "it's company policy"; among many others that may or may not make it into this collection.
 
@@ -36,6 +38,9 @@ const works = [
   {
     name: "Nothing",
     link: "https://archiveofourown.org/works/38421364",
+    genre: ['angst', 'character study'],
+    rating: 'M',
+    warning: ['implied/referenced character death', 'strong language', 'smoking', 'alcohol'],
     summary: `
     "I'm sorry," someone said. Another clang. "I'm sorry I couldn't... help you."
 

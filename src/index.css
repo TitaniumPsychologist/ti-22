@@ -9,19 +9,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(15 23 42);
-  color: grey;
-}
-
-a {
-  color:white;
-}
-a:hover {
-  color:rgb(61, 166, 204);
-}
-
-footer {
-  color: pink
 }
 
 code {
