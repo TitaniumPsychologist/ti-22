@@ -12,21 +12,21 @@ import Works from './pages/Works';
 
 function App() {
   return (
-    <Router>
+    <Router basename='ti-22'>
       <div className='container p-4 mx-auto relative'>
         <Header />
         <div className='container p-4'>
           <Routes>
             <Route
-              path="/ti-22"
+              path="/"
               element={<Home />}
             />
             <Route
-              path="/ti-22/about"
+              path="/about"
               element={<About />}
             />
             <Route
-              path="/ti-22/works"
+              path="/works"
               element={<Works />}
             />
           </Routes>
