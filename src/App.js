@@ -13,9 +13,9 @@ import Works from './pages/Works';
 function App() {
   return (
     <Router>
-      <div className='p-8'>
+      <div className='container p-4 mx-auto'>
         <Header />
-        <div>
+        <div className='container p-4'>
           <Routes>
             <Route
               path="/"

@@ -1,28 +1,23 @@
 // import component
 import Sample from "../../components/Sample";
-
-const workStuff = [
-  {
-    name: "Duality of Light",
-    link: "https://archiveofourown.org/works/37467820"
-  },
-  {
-    name: "Gavin and Hank's After-Midnight Sanity Tour 2038",
-    link: "https://archiveofourown.org/works/38637018"
-  },
-  {
-    name: "Nothing",
-    link: "https://archiveofourown.org/works/38421364"
-  }
-]
+import works from "../../utils/works";
 
 const Works = () => {
   return (
     <main>
       <h1 className="text-3xl font-bold text-center">Works</h1>
-      <Sample name={workStuff[0].name} link={workStuff[0].link}/>
-      <Sample name={workStuff[1].name} link={workStuff[1].link}/>
-      <Sample name={workStuff[2].name} link={workStuff[2].link}/>
+      <section className="grid gap-7 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        {works.map(sample => (
+        <Sample
+          name={sample.name}
+          link={sample.link}
+          summary={sample.summary}
+          genre={sample.genre}
+          warning={sample.warning}
+          rating={sample.rating}
+        />
+      ))}
+      </section>
     </main>
   )
 }

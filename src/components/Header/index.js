@@ -6,7 +6,7 @@ import Social from '../Social';
 const Header = () => {
   return (
     <div>
-      <h1 className='font-bold text-4xl text-center'>TitaniumPsychologist</h1>
+      <h1 className='font-bold text-3xl md:text-4xl text-center'>TitaniumPsychologist</h1>
       <h2 className='text-center font-bold'>Titanium Psychologist / Ti-22 / Ti22Psych</h2>
       <div className='flex justify-around'>
         <Social />

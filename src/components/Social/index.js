@@ -1,7 +1,7 @@
 const Social = () => {
   return (
     <div>
-      <ul className="flex">
+      <ul className="flex gap-2">
         <li>
           <a href='https://archiveofourown.org/users/TitaniumPsychologist/profile' target="_blank" rel="noreferrer noopener">AO3 Profile</a>
         </li>
@@ -12,7 +12,9 @@ const Social = () => {
           <a href='https://twitter.com/ti22psych' target='_blank' rel="noreferrer noopener">Twitter</a>
         </li>
         <li>
-          <a href='https://www.reddit.com/user/titaniumPsychologist/' target='_blank' rel='noreferrer noopener'>Reddit</a>
+          <a href='https://www.reddit.com/user/titaniumPsychologist/' target='_blank' rel='noreferrer noopener'>Reddit
+            {/* <img src={require(`../../assets/icons/Reddit_Lockup_OnDark.svg`).default} alt="Reddit logo" width={100}></img> */}
+          </a>
         </li>
         <li>
           <a href='https://github.com/TitaniumPsychologist' target='_blank' rel='noreferrer noopener'>GitHub</a>
