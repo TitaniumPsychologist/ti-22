@@ -18,15 +18,15 @@ function App() {
         <div className='container p-4'>
           <Routes>
             <Route
-              path="/"
+              path="/ti-22"
               element={<Home />}
             />
             <Route
-              path="/about"
+              path="/ti-22/about"
               element={<About />}
             />
             <Route
-              path="/works"
+              path="/ti-22/works"
               element={<Works />}
             />
           </Routes>

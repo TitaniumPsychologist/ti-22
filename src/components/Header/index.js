@@ -14,13 +14,13 @@ const Header = () => {
       <nav>
         <ul className='flex justify-around'>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/ti-22">Home</Link>
           </li>
           <li>
-            <Link to='/about'>About</Link>
+            <Link to='/ti-22/about'>About</Link>
           </li>
           <li>
-            <Link to="/works">Works</Link>
+            <Link to="/ti-22/works">Works</Link>
           </li>
         </ul>
       </nav>
