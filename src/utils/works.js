@@ -61,6 +61,9 @@ const works = [
   {
     name: "Drosophila",
     link: "https://archiveofourown.org/works/40832589",
+    genre: ['humor', 'crackfic'],
+    rating: ['M'],
+    warning: ['strong language'],
     summary: `
     Or, as an alternate title: Time flies like an arrow; fruit flies like a banana
 
@@ -74,6 +77,9 @@ const works = [
   {
     name: "Tech Support",
     link: "https://archiveofourown.org/works/37897678",
+    genre: ['humor', 'attempt at humor', 'crackfic'],
+    warning: ['strong language'],
+    rating: ['M'],
     summary: `
     Of all the ways Hank thought today would play out, being strapped to a bomb with a smartass and a dumbass wasn't at the top of his list.
 

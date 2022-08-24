@@ -7,7 +7,7 @@ const Sample = (props) => {
         </h2>
         {props.warning &&
           <p className="py-1"><strong>Warnings:</strong> {props.warning.map(warnings => (
-            <span className="background-grey rounded-full px-2">#{warnings}</span>
+            <span className="background-grey rounded-full px-2">!{warnings}!</span>
           ))}
           </p>}
         {props.genre &&

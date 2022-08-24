@@ -14,8 +14,10 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <Router basename='ti-22'>
-      <div className='container p-4 mx-auto relative background-dark text-white'>
-        <Header />
+      <div className='container p-2 mx-auto relative background-dark text-white'>
+        <div className='p-2 md:p-3'>
+          <Header />
+        </div>
         <div className='container p-4'>
           <Routes>
             <Route
@@ -33,7 +35,7 @@ function App() {
             <Route
               path='/contact'
               element={<Contact />}
-              />
+            />
           </Routes>
         </div>
         <Footer />

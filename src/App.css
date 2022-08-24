@@ -62,3 +62,12 @@ a:hover {
 .background-blue{
   background-color: var(--blue);
 }
+
+/* breakpoints */
+
+@media (max-width: 768px) {
+  .mobile-hide {
+    display: none;
+    color:brown
+  }
+}
