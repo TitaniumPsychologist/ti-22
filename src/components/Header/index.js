@@ -13,16 +13,16 @@ const Header = () => {
       </div>
       <nav className='text-xl'>
         <ul className='flex justify-around'>
-          <li className='hover:text-slate-700'>
+          <li className='text-green'>
             <Link to="/">Home</Link>
           </li>
-          <li className='hover:text-slate-700'>
+          <li className='text-green'>
             <Link to='/about'>About</Link>
           </li>
-          <li className='hover:text-slate-700'>
+          <li className='text-green'>
             <Link to="/works">Works</Link>
           </li>
-          <li className='hover:text-slate-700'>
+          <li className='text-green'>
             <Link to="/contact">Contact</Link>
           </li>
         </ul>

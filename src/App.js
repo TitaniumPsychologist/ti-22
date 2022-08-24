@@ -14,7 +14,7 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <Router basename='ti-22'>
-      <div className='container p-4 mx-auto relative bg-slate-100 text-cyan-500'>
+      <div className='container p-4 mx-auto relative background-dark text-white'>
         <Header />
         <div className='container p-4'>
           <Routes>

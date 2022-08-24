@@ -1,6 +1,64 @@
-/* a {
-  color:white;
+:root {
+  --white: rgb(169,171,179);
+  --dark: rgb(41, 47, 51);
+  --grey: rgba(26, 65, 97, 0.753);
+  --purple: rgb(169, 133, 255);
+  --green: rgb(115, 191, 184);
+  --pink: rgb(239, 118, 116);
+  --blue: rgb(97, 164, 240);
 }
+
+/* text colors */
+.text-white {
+  color: var(--white);
+}
+
 a:hover {
-  color:rgb(61, 166, 204);
-} */
+  color: var(--blue)
+}
+
+.text-dark {
+  color: var(--dark);
+}
+
+.text-purple {
+  color: var(--purple);
+}
+
+.text-green {
+  color: var(--green);
+}
+
+.text-pink {
+  color: var(--pink);
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+/* background colors */
+
+.background-white {
+  background-color: var(--white);
+}
+
+.background-dark {
+  background-color: var(--dark);
+}
+
+.background-purple {
+  background-color: var(--purple);
+}
+
+.background-green {
+  background-color: var(--green);
+}
+
+.background-pink {
+  background-color: var(--pink);
+}
+
+.background-blue{
+  background-color: var(--blue);
+}

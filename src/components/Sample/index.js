@@ -1,18 +1,18 @@
 const Sample = (props) => {
   return (
-    <div className="p-3 rounded-lg bg-slate-700">
+    <div className="p-3 rounded-lg text-white">
       <div className="p-2">
-        <h2 className="font-bold text-center text-xl">
+        <h2 className="font-bold text-center text-xl text-purple">
           <a href={props.link} target="_blank" rel="noreferrer noopener">{props.name}</a>
         </h2>
         {props.warning &&
           <p className="py-1"><strong>Warnings:</strong> {props.warning.map(warnings => (
-            <span className="bg-slate-800 rounded-full px-2">{warnings}</span>
+            <span className="background-grey rounded-full px-2">#{warnings}</span>
           ))}
           </p>}
         {props.genre &&
           <p className="py-1"><strong>Genre:</strong> {props.genre.map(genres => (
-            <span className="bg-slate-800 rounded-full px-2">{genres}</span>
+            <span className="background-dark rounded-full px-2">#{genres}</span>
           ))}
           </p>}
         {props.rating && <p className="py-1"><strong>Rating:</strong> {props.rating}</p>}
