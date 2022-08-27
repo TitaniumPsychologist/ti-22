@@ -1,11 +1,12 @@
 :root {
-  --white: rgb(169,171,179);
+  --white: rgb(169, 171, 179);
   --dark: rgb(41, 47, 51);
   --grey: rgba(26, 65, 97, 0.753);
   --purple: rgb(169, 133, 255);
   --green: rgb(115, 191, 184);
   --pink: rgb(239, 118, 116);
   --blue: rgb(97, 164, 240);
+  --emphasis: rgb(255, 255, 255);
 }
 
 /* text colors */
@@ -13,8 +14,8 @@
   color: var(--white);
 }
 
-a:hover {
-  color: var(--blue)
+.text-emphasis {
+  color: var(--emphasis);
 }
 
 .text-dark {
@@ -34,6 +35,31 @@ a:hover {
 }
 
 .text-blue {
+  color: var(--blue);
+}
+
+/* hover text colors */
+.hover-text-white:hover {
+  color: var(--emphasis);
+}
+
+.hover-text-dark:hover {
+  color: var(--dark);
+}
+
+.hover-text-purple:hover {
+  color: var(--purple);
+}
+
+.hover-text-green:hover {
+  color: var(--green);
+}
+
+.hover-text-pink:hover {
+  color: var(--pink);
+}
+
+.hover-text-blue:hover {
   color: var(--blue);
 }
 
@@ -59,7 +85,32 @@ a:hover {
   background-color: var(--pink);
 }
 
-.background-blue{
+.background-blue {
+  background-color: var(--blue);
+}
+
+/* hover background */
+.hover-background-white:hover {
+  background-color: var(--emphasis);
+}
+
+.hover-background-dark:hover {
+  background-color: var(--dark);
+}
+
+.hover-background-purple:hover {
+  background-color: var(--purple);
+}
+
+.hover-background-green:hover {
+  background-color: var(--green);
+}
+
+.hover-background-pink:hover {
+  background-color: var(--pink);
+}
+
+.hover-background-blue:hover {
   background-color: var(--blue);
 }
 
@@ -68,6 +119,6 @@ a:hover {
 @media (max-width: 768px) {
   .mobile-hide {
     display: none;
-    color:brown
+    color: brown
   }
 }

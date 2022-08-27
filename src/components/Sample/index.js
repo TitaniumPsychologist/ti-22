@@ -2,7 +2,7 @@ const Sample = (props) => {
   return (
     <div className="p-3 rounded-lg text-white">
       <div className="p-2">
-        <h2 className="font-bold text-center text-xl text-purple">
+        <h2 className="font-bold text-center text-xl text-green hover-text-purple">
           <a href={props.link} target="_blank" rel="noreferrer noopener">{props.name}</a>
         </h2>
         {props.warning &&
