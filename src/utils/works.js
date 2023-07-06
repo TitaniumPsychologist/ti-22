@@ -85,6 +85,13 @@ const works = [
 
     (Spoiler: they aren't being very helpful.)
     `
+  },
+  {
+    name: "Ghost in the Machine",
+    link: "https://archiveofourown.org/works/42476904",
+    genre: ['drama', 'casefic'],
+    warning: ['graphic depictions of violence', 'strong language', 'character death'],
+    rating: "M"
   }
 ];
 

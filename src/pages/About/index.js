@@ -7,7 +7,7 @@ const About = () => {
         <p className="py-2">Why am I calling myself TitaniumPsychologist? Well, one day I was studying from one of my psychology textbooks in the kitchen, looked over at one of my titanium pots, and thought to myself, "Yes. That."</p>
         <p className="py-2">Fandoms that I have written fanfiction for include:
         </p>
-        <ul className="list-disc">
+        <ul className="list-disc list-inside">
           <li>
             Avatar: the Last Airbender, from Nickelodeon
           </li>
